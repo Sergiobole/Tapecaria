@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tapeçaria Profissional</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#">
+                <img src="assets/imgs/logo.png" alt="Logo" width="40" height="40" style="object-fit:contain;"> Tapeçaria Art Naval
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tecidos">Tecidos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-light py-5 border-bottom">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold mb-3" style="font-family: 'Montserrat', sans-serif; letter-spacing:2px;">Tapeçaria Art Naval</h1>
+            <p class="lead mb-4">Especialistas em restauração, manutenção e cuidados de tecidos e couro para móveis e automóveis.</p>
+            <a href="#contato" class="btn btn-lg btn-primary shadow">Solicite um orçamento</a>
+        </div>
+    </header>
+
+    <!-- Sobre o Tapeceiro e Tapeçaria -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img src="assets/imgs/tapeceiro.jpg" alt="Tapeceiro" class="rounded-circle shadow-lg border border-3 border-primary" width="180" height="180" style="object-fit:cover;">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="fw-bold mb-3" style="font-family: 'Montserrat', sans-serif;">Sobre o Tapeceiro</h2>
+                    <p class="mb-2">Com mais de <strong>50 anos de experiência</strong>, Sérgio Bole é referência em tapeçaria, oferecendo serviços de alta qualidade, restauração de móveis, bancos automotivos e consultoria sobre cuidados com tecidos e couro.</p>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-1"><i class="bi bi-check-circle-fill text-primary me-2"></i>Atendimento personalizado</li>
+                        <li class="mb-1"><i class="bi bi-check-circle-fill text-primary me-2"></i>Materiais de alta qualidade</li>
+                        <li class="mb-1"><i class="bi bi-check-circle-fill text-primary me-2"></i>Garantia de satisfação</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Tecidos -->
+    <section id="tecidos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold mb-5 text-center display-6" style="font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Cuidados por Tipo de Tecido</h2>
+            <div class="row g-4">
+                <!-- Tecido 1: Veludo -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-lg position-relative overflow-hidden">
+                        <div class="position-relative">
+                            <img src="assets/imgs/veludo.jpg" class="card-img-top" alt="Veludo - Exemplo de aplicação" style="height:220px; object-fit:cover; filter:brightness(0.92);">
+                            <div class="position-absolute bottom-0 start-0 w-100 p-2" style="background:rgba(0,0,0,0.35);">
+                                <span class="text-white small">Exemplo: Sofá de sala</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title mb-2" style="font-family: 'Montserrat', sans-serif;">Veludo</h4>
+                            <p><strong>Cor/Modelo:</strong> <span class="badge" style="background:#7B3F00; color:#fff;">#7B3F00</span></p>
+                            <p><strong>Produtos aconselhados:</strong></p>
+                            <ul class="ps-3">
+                                <li><a href="https://www.amazon.com.br/dp/B07V6M8Q7B" target="_blank">Limpa Estofados 3M</a></li>
+                                <li><a href="https://www.amazon.com.br/dp/B08L5V6K7B" target="_blank">Escova de Cerdas Macias</a></li>
+                                <li><a href="https://www.amazon.com.br/dp/B09F6K7B8Q" target="_blank">Aspirador Portátil</a></li>
+                            </ul>
+                            <p><strong>Manejo e uso:</strong> Use o aspirador para remover poeira semanalmente. Aplique o limpa estofados com a escova de cerdas macias, sempre em movimentos suaves e circulares.</p>
+                            <p><strong>Dicas:</strong> Evite exposição direta ao sol. Não utilize produtos abrasivos. Para manchas, limpe imediatamente com pano úmido e sabão neutro.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tecido 2: Couro -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-lg position-relative overflow-hidden">
+                        <div class="position-relative">
+                            <img src="assets/imgs/couro.jpg" class="card-img-top" alt="Couro - Exemplo de aplicação" style="height:220px; object-fit:cover; filter:brightness(0.92);">
+                            <div class="position-absolute bottom-0 start-0 w-100 p-2" style="background:rgba(0,0,0,0.35);">
+                                <span class="text-white small">Exemplo: Banco automotivo</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title mb-2" style="font-family: 'Montserrat', sans-serif;">Couro</h4>
+                            <p><strong>Cor/Modelo:</strong> <span class="badge" style="background:#3E2723; color:#fff;">#3E2723</span></p>
+                            <p><strong>Produtos aconselhados:</strong></p>
+                            <ul class="ps-3">
+                                <li><a href="https://www.amazon.com.br/dp/B07Z6M8Q7B" target="_blank">Hidratante para Couro</a></li>
+                                <li><a href="https://www.amazon.com.br/dp/B08L5V6K7C" target="_blank">Pano de Microfibra</a></li>
+                                <li><a href="https://www.amazon.com.br/dp/B09F6K7B8R" target="_blank">Limpa Couro</a></li>
+                            </ul>
+                            <p><strong>Manejo e uso:</strong> Limpe o couro com pano de microfibra levemente umedecido. Aplique o hidratante a cada 2 meses para evitar ressecamento.</p>
+                            <p><strong>Dicas:</strong> Não utilize álcool ou solventes. Evite objetos pontiagudos. Mantenha longe do sol para evitar rachaduras.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tecido 3: Suede -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-lg position-relative overflow-hidden">
+                        <div class="position-relative">
+                            <img src="assets/imgs/suede.jpg" class="card-img-top" alt="Suede - Exemplo de aplicação" style="height:220px; object-fit:cover; filter:brightness(0.92);">
+                            <div class="position-absolute bottom-0 start-0 w-100 p-2" style="background:rgba(0,0,0,0.35);">
+                                <span class="text-white small">Exemplo: Poltrona</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title mb-2" style="font-family: 'Montserrat', sans-serif;">Suede</h4>
+                            <p><strong>Cor/Modelo:</strong> <span class="badge" style="background:#A0522D; color:#fff;">#A0522D</span></p>
+                            <p><strong>Produtos aconselhados:</strong></p>
+                            <ul class="ps-3">
+                                <li><a href="https://www.amazon.com.br/dp/B07V6M8Q7C" target="_blank">Limpa Suede</a></li>
+                                <li><a href="https://www.amazon.com.br/dp/B08L5V6K7D" target="_blank">Escova para Suede</a></li>
+                                <li><a href="https://www.amazon.com.br/dp/B09F6K7B8S" target="_blank">Protetor de Tecidos</a></li>
+                            </ul>
+                            <p><strong>Manejo e uso:</strong> Aspire regularmente. Use a escova para manter a textura. Aplique protetor de tecidos para maior durabilidade.</p>
+                            <p><strong>Dicas:</strong> Evite líquidos. Para manchas, utilize limpa suede e seque à sombra.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tecido 4: Linho -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-lg position-relative overflow-hidden">
+                        <div class="position-relative">
+                            <img src="assets/imgs/linho.jpg" class="card-img-top" alt="Linho - Exemplo de aplicação" style="height:220px; object-fit:cover; filter:brightness(0.92);">
+                            <div class="position-absolute bottom-0 start-0 w-100 p-2" style="background:rgba(0,0,0,0.35);">
+                                <span class="text-white small">Exemplo: Cadeira de jantar</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title mb-2" style="font-family: 'Montserrat', sans-serif;">Linho</h4>
+                            <p><strong>Cor/Modelo:</strong> <span class="badge" style="background:#E5D8B0; color:#333;">#E5D8B0</span></p>
+                            <p><strong>Produtos aconselhados:</strong></p>
+                            <ul class="ps-3">
+                                <li><a href="https://www.amazon.com.br/dp/B07V6M8Q7D" target="_blank">Limpa Tecidos Neutro</a></li>
+                                <li><a href="https://www.amazon.com.br/dp/B08L5V6K7E" target="_blank">Escova de Limpeza</a></li>
+                                <li><a href="https://www.amazon.com.br/dp/B09F6K7B8T" target="_blank">Aspirador Portátil</a></li>
+                            </ul>
+                            <p><strong>Manejo e uso:</strong> Aspire semanalmente. Use limpa tecidos neutro para remover manchas leves. Escove suavemente para manter a aparência.</p>
+                            <p><strong>Dicas:</strong> Não utilize água em excesso. Evite exposição ao sol. Para manchas difíceis, procure um profissional.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="fw-bold mb-4 text-center">Fale Conosco</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3 mt-5">
+        <div class="container">
+            <span class="fw-bold">&copy; 2024 Tapeçaria Art Naval</span>. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
